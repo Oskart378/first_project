@@ -1,0 +1,163 @@
+body {
+    size: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+   
+}
+
+
+.main_image {
+    width: 600px;
+    height: 300px;
+}
+
+.candle {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-style:solid;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.main_secondary_text, .link_text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main_text {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.information_text {
+    font-size: 36px;
+    color: #1f2937;
+    padding-bottom: 20px;
+}
+
+.information_section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px 200px 80px;
+}
+
+.quote_section {
+    background-color: #e5e7eb;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight:lighter;
+    font-style: italic;
+    width: 750px;
+}
+
+.action_section {
+    background-color: #3882f6;
+    color: white;
+    margin: 100px 400px;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
+
+.action_text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.main_section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+.main {
+    width: 400px;
+   
+}
+
+.footer {
+    padding: 50px;
+    display: flex;
+    flex-shrink: 0;
+    place-content: center center;
+    color: white;
+}
+
+.sets {
+    display: flex;
+    gap: 50px;
+}
+
+.set {
+    width: 160px;
+    height: 160px;
+}
+
+.citation {
+    width: 650px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.action {
+    background-color: white;
+}
+
+.sign_btn {
+    align-self: center;
+    border-color: white;
+}
